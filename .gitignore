@@ -10,3 +10,5 @@ mlflow.db
 .env
 .env.*
 "@ | Set-Content -Encoding ascii .gitignore
+mlruns/
+mlflow.db
