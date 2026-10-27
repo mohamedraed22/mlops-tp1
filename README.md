@@ -70,7 +70,7 @@ MLflow 3.17.1 tracks the Random Forest experiments, including their hyperparamet
 
 ### MLflow Tracking Interface
 
-![MLflow experiment comparison interface](screenshots/mlflow_experiments.png)
+![MLflow experiment comparison interface](images/mlflow-experiments.png)
 
 Essai 1 and Essai 3 have equal performance on this evaluation. Essai 3 uses fewer original input features because `salaire` was removed. Essai 2 performs worse, especially in recall and F1-score. Since churn classes are imbalanced, accuracy alone is insufficient for evaluating model performance.
 
