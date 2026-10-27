@@ -1,5 +1,12 @@
+@"
+.venv/
 venv/
 __pycache__/
-*.pyc
 .ipynb_checkpoints/
+*.pyc
 model.pkl
+mlruns/
+mlflow.db
+.env
+.env.*
+"@ | Set-Content -Encoding ascii .gitignore
